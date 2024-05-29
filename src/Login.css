@@ -1,52 +1,73 @@
 .auth-form-container {
+  width: 80%;
   display: flex;
   flex-direction: column;
-
   padding: 10rem;
   margin: 0.5rem;
 }
 
 .login-form {
   width: 100%;
-  /* display: flex;
-  flex-direction: column;
-  
-  gap: 48px; */
 }
 
-.main-wrapper {
-  display: flex;
+.login-description {
+  margin-bottom: 1rem;
 }
 
 label {
   text-align: left;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 input {
-  
-  padding: 1rem;
-  border: none;
-  border-radius: 10px;
-  width: 100%;
+  background-color: #f7fbff !important;
+}
+
+object {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 button {
   border: none;
-  margin-top: px;
   padding: 20px;
   border-radius: 10px;
   width: 100%;
   cursor: pointer;
   color: white;
- text-align: center;
-  
+  text-align: center;
+  margin-bottom: 1rem !important;
 }
 
-.link-btn {
-  
-  background: none;
-  color: black;
-  text-decoration: underline;
-  margin: 10px;
+.forgot-pwd-control {
+  text-align: right;
+}
+
+
+.line-through-or {
+  margin: 1rem 0;
+}
+
+.line-through-or p{
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #e1ebec; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+.line-through-or p span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+
+.sign-in-google-control object {
+  margin: 0 10px;
+}
+
+.sign-in-facebook-control object {
+  margin: 0px;
 }

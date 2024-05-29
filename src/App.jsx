@@ -1,11 +1,9 @@
 import { useState } from "react";
-import "./App.css";
 import { Login } from "./Login";
 import { Register } from "./Register";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
-
-// import { Testing } from "./Testing";
 
 function App() {
   const [currentform, setCurrentForm] = useState("login");
