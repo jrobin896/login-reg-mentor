@@ -68,6 +68,14 @@ button {
   margin: 0 10px;
 }
 
+.sign-in-google-control button {
+  background-color: #f7fbff;
+}
+
 .sign-in-facebook-control object {
   margin: 0px;
+}
+
+.sign-in-facebook-control button {
+  background-color: #f7fbff;
 }
